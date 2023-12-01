@@ -1,0 +1,69 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+#score{
+    font-size: 4rem;
+}
+
+
+h2{
+    padding: none;
+    margin: none;
+}
+input, button {
+    margin: 5px;
+  }
+
+
+/* バスケコートの画像 */
+#basketcort{
+    text-align: center;
+}
+#basketcort img{
+    display: inline-block;
+    width: 50%;
+    height: 50%;
+}
+
+#timer {
+    text-align: center;
+    font-size: 4rem;
+}
+
+
+/* ボタン関連 */
+.scoreBtn{
+    border-radius: 3px;
+    margin: 0 auto;
+    max-width: 280px;
+    padding: 10px 25px;
+    color: white;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+#plyOneBtn{
+    background-color: rgb(18, 87, 147);
+}
+#plyTwoBtn{
+    background-color: rgb(125, 1, 1);
+}
+
+#resetBtn{
+    background-color: rgb(56, 55, 55);
+}
+/* ホバーした時 */
+#plyOneBtn:hover {
+    background: rgb(22, 110, 186);;
+}
+#plyTwoBtn:hover{
+    background-color: rgb(180, 1, 1);
+}
+#resetBtn:hover{
+    background-color: rgb(96, 93, 93);
+}
